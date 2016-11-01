@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					2D40ABE31D781581004E1826 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UDTCXTH874;
 					};
 					2D40ABFC1D781581004E1826 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -415,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UDTCXTH874;
 				INFOPLIST_FILE = "UITextFieldDemo-zishuxianzhi/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangfurun.haifeng.UITextFieldDemo-zishuxianzhi";
@@ -426,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UDTCXTH874;
 				INFOPLIST_FILE = "UITextFieldDemo-zishuxianzhi/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangfurun.haifeng.UITextFieldDemo-zishuxianzhi";
@@ -498,6 +501,7 @@
 				2D40AC131D781582004E1826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D40AC141D781582004E1826 /* Build configuration list for PBXNativeTarget "UITextFieldDemo-zishuxianzhiTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +510,7 @@
 				2D40AC161D781582004E1826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D40AC171D781582004E1826 /* Build configuration list for PBXNativeTarget "UITextFieldDemo-zishuxianzhiUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +519,7 @@
 				2D40AC191D781582004E1826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

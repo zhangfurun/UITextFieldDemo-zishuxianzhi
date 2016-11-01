@@ -61,6 +61,24 @@ static NSInteger CharacterCount = 8;
     NSString *pattern = @"^[a-zA-Z\u4E00-\u9FA5\\d]*$";
     NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", pattern];
     BOOL isMatch = [pred evaluateWithObject:str];
+    
+    if (!isMatch) {
+        NSString *other = @"➋➌➍➎➏➐➑➒";
+        unsigned long len=str.length;
+        for(int i=0;i<len;i++)
+        {
+            unichar a=[str characterAtIndex:i];
+            if(!((isalpha(a))
+                 ||(isalnum(a))
+                 ||((a=='_') || (a == '-'))
+                 ||((a >= 0x4e00 && a <= 0x9fa6))
+                 ||([other rangeOfString:str].location != NSNotFound)
+                 ))
+                return NO;
+        }
+        return YES;
+        
+    }
     return isMatch;
 }
 /**
